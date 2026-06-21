@@ -37,6 +37,7 @@ app.use('/api/orders', orderRoutes);
 app.use('/api/special-orders', specialOrderRoutes);
 app.use('/api/settings', settingsRoutes);
 app.use('/api/upload', uploadRoutes);
+app.use('/api/dashboard', dashboardRoutes);
 
 const PORT = process.env.PORT || 5000;
 
